@@ -16,8 +16,8 @@
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto" MinHeight="768"/>
+            <RowDefinition Height="0*"/>
         </Grid.RowDefinitions>
 
         <!-- LOCALIZATION NOTE:
@@ -40,15 +40,15 @@
          -->
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="Słownik Języka Śląskiego" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
-
-        <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
+        <Grid x:Name="LayoutWrapper" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="TxtRecipes" Margin="0,327,0,198" Style="{StaticResource PhoneTextTitle1Style}">
+            	<Run Text="Przepisy"/>
+            	<LineBreak/>
+            	<Run Text="kulinarne"/>
+            </TextBlock>
+            <TextBlock x:Name="TxtDictionary" Text="Słownik" Margin="0,123,8,428" Style="{StaticResource PhoneTextTitle1Style}"/>
         </Grid>
+ 
 
         <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to

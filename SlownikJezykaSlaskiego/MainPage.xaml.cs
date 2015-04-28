@@ -17,10 +17,13 @@ namespace SlownikJezykaSlaskiego
         public MainPage()
         {
             InitializeComponent();
+			
+			string myString = "Whatever I like in here";
 
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
         }
+
 
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
