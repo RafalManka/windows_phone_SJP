@@ -17,28 +17,17 @@ namespace SlownikJezykaSlaskiego
         public MainPage()
         {
             InitializeComponent();
-			
-			string myString = "Whatever I like in here";
-
-            // Sample code to localize the ApplicationBar
-            //BuildLocalizedApplicationBar();
         }
 
+        private void BtnDictionary_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+        	NavigationService.Navigate(new Uri("/DictionaryList.xaml", UriKind.Relative));
+        }
 
-        // Sample code for building a localized ApplicationBar
-        //private void BuildLocalizedApplicationBar()
-        //{
-        //    // Set the page's ApplicationBar to a new instance of ApplicationBar.
-        //    ApplicationBar = new ApplicationBar();
+        private void Button_Click_1(object sender, System.Windows.RoutedEventArgs e)
+        {
+        	NavigationService.Navigate(new Uri("/RecipesList.xaml", UriKind.Relative));
+        }
 
-        //    // Create a new button and set the text value to the localized string from AppResources.
-        //    ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/appbar.add.rest.png", UriKind.Relative));
-        //    appBarButton.Text = AppResources.AppBarButtonText;
-        //    ApplicationBar.Buttons.Add(appBarButton);
-
-        //    // Create a new menu item with the localized string from AppResources.
-        //    ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppBarMenuItemText);
-        //    ApplicationBar.MenuItems.Add(appBarMenuItem);
-        //}
     }
 }
