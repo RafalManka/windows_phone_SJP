@@ -7,14 +7,23 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using System.Diagnostics;
 
 namespace SlownikJezykaSlaskiego
 {
     public partial class DictionaryList : PhoneApplicationPage
     {
+		List<string> list = new List<string>(){"monday","tuesday"};
+		
         public DictionaryList()
         {
             InitializeComponent();
+			listBox.ItemsSource = list; 
         }
+		
+		private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{ 
+			NavigationService.Navigate(new Uri("/RecipesList.xaml", UriKind.Relative));
+		}
     }
 }

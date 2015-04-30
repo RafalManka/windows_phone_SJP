@@ -14,22 +14,71 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
-
-        <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
-        </Grid>
+    <Grid x:Name="LayoutRoot" Background="White">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*" />
+			<RowDefinition Height="2*" />
+		</Grid.RowDefinitions>
+		
+		<Grid Background="#FFA0A8D1" Grid.Row="0">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+		</Grid.RowDefinitions>
+			<TextBlock  Foreground="White" Grid.Row="0" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center">Słownik Języka Śląskiego</TextBlock>
+			<Grid Grid.Row="1">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+				<Grid Grid.Column="1">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="2*" />
+						<RowDefinition Height="*" />
+					</Grid.RowDefinitions>
+					<Image Grid.Row="0" Source="/schlesische_flagge.png" />
+					<TextBlock Grid.Row="1" Foreground="White" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center">Śląski</TextBlock>
+				</Grid>
+				<Grid Grid.Column="2">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="2*" />
+						<RowDefinition Height="*" />
+					</Grid.RowDefinitions>
+					<Image  Source="/arrow.png" Margin="0,10,0,10" />
+				</Grid>
+				<Grid Grid.Column="3">
+					<Grid.RowDefinitions>
+						<RowDefinition Height="2*" />
+						<RowDefinition Height="*" />
+					</Grid.RowDefinitions>
+					<Image Source="/polnische_Flagge.png" />
+					<TextBlock Grid.Row="1" Foreground="White" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center">Polski</TextBlock>
+				</Grid>
+				
+			</Grid>
+			<TextBox Grid.Row="2"></TextBox>
+		</Grid>
+		 <ListBox x:Name="listBox" Grid.Row="1" SelectionChanged="listBox_SelectionChanged">
+			<ListBox.ItemContainerStyle>
+				<Style TargetType="ListBoxItem">
+					<Setter Property="HorizontalContentAlignment" Value="Stretch">
+				</Setter>
+				</Style>
+			</ListBox.ItemContainerStyle>
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border BorderThickness="0,0,0,1" BorderBrush="#c0c0c0">
+						<Grid Width="auto" HorizontalAlignment="Stretch">
+							<TextBlock VerticalAlignment="Center" FontSize="36" Grid.Column="0" Foreground="Black" Text="{Binding}" />
+						</Grid>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		 </ListBox>
     </Grid>
 
 </phone:PhoneApplicationPage>

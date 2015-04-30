@@ -10,12 +10,13 @@ C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\Slow
 C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\Bin\Debug\Properties\WMAppManifest.xml
 C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\Bin\Debug\SlownikJezykaSlaskiego_Debug_AnyCPU.xap
 C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\App.g.cs
+C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\DictionaryDetails.g.cs
+C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\DictionaryList.g.cs
 C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\MainPage.g.cs
+C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\RecipesList.g.cs
 C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.g.resources
 C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.Resources.AppResources.resources
 C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.csproj.GenerateResource.Cache
 C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.dll
 C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.pdb
 C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\XapCacheFile.xml
-C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\DictionaryList.g.cs
-C:\Users\Rafal\Documents\Visual Studio 2012\Projects\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego\obj\Debug\RecipesList.g.cs
