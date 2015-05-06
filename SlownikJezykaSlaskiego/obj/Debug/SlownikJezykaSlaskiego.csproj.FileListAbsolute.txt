@@ -20,3 +20,6 @@ C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\D
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.dll
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.pdb
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\XapCacheFile.xml
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.csprojResolveAssemblyReference.cache

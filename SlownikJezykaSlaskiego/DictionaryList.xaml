@@ -60,7 +60,7 @@
 				</Grid>
 				
 			</Grid>
-			<TextBox Grid.Row="2"></TextBox>
+			<TextBox Grid.Row="2" x:Name="TBInputFilter" TextChanged="TextBox_TextChanged"></TextBox>
 		</Grid>
 		 <ListBox x:Name="listBox" Grid.Row="1" SelectionChanged="listBox_SelectionChanged">
 			<ListBox.ItemContainerStyle>
@@ -71,9 +71,10 @@
 			</ListBox.ItemContainerStyle>
 			<ListBox.ItemTemplate>
 				<DataTemplate>
-					<Border BorderThickness="0,0,0,1" BorderBrush="#c0c0c0">
+                    
+					<Border BorderThickness="0,0,0,0" BorderBrush="#c0c0c0">
 						<Grid Width="auto" HorizontalAlignment="Stretch">
-							<TextBlock VerticalAlignment="Center" FontSize="36" Grid.Column="0" Foreground="Black" Text="{Binding}" />
+                            <TextBlock FontSize="25" Padding="18,18,18,18" VerticalAlignment="Center"  Grid.Column="0" Foreground="Black" Text="{Binding silesian}" />
 						</Grid>
 					</Border>
 				</DataTemplate>
