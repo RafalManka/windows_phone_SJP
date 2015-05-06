@@ -35,7 +35,6 @@ namespace SlownikJezykaSlaskiego
 
         private async void loadJson()
         {
-
             var str = Application.GetResourceStream(new Uri("json.json", UriKind.Relative));
             StreamReader streamReader = new StreamReader(str.Stream);
             string myString = streamReader.ReadToEnd();

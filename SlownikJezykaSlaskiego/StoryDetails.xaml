@@ -1,0 +1,30 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="SlownikJezykaSlaskiego.StoryDetails"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <ScrollViewer>
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="TxtTitle" Padding="10,10,10,10" TextAlignment="Center" TextWrapping="Wrap" Foreground="Black" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <TextBlock x:Name="TxtDescription" Padding="10,10,10,10" TextAlignment="Left" TextWrapping="Wrap" Foreground="Black" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"/>
+        <Rectangle Grid.Row="2"/>
+    </Grid>
+    </ScrollViewer>
+</phone:PhoneApplicationPage>

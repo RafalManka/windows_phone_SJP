@@ -17,14 +17,14 @@
     <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
-            <RowDefinition Height="4*" />
+            <RowDefinition Height="5*" />
         </Grid.RowDefinitions>
 
         <Grid Background="#FFA0A8D1" Grid.Row="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <TextBlock  Foreground="White" Grid.Row="0" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center">Przepisy kulinarne</TextBlock>
+            <TextBlock  Foreground="White" Grid.Row="0" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center">Opowiadania</TextBlock>
         </Grid>
         <ListBox x:Name="listBox" Grid.Row="1" SelectionChanged="listBox_SelectionChanged">
             <ListBox.ItemContainerStyle>
@@ -38,7 +38,7 @@
 
                     <Border BorderThickness="0,0,0,0" BorderBrush="#c0c0c0">
                         <Grid Width="auto" HorizontalAlignment="Stretch">
-                            <TextBlock FontSize="25" Padding="18,18,18,18" VerticalAlignment="Center"  Grid.Column="0" Foreground="Black" Text="{Binding silesian}" />
+                            <TextBlock FontSize="25" Padding="18,18,18,18" VerticalAlignment="Center"  Grid.Column="0" Foreground="Black" Text="{Binding title}" />
                         </Grid>
                     </Border>
                 </DataTemplate>

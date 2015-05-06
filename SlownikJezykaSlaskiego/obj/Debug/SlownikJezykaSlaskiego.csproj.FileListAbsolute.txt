@@ -13,7 +13,6 @@ C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\D
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\DictionaryDetails.g.cs
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\DictionaryList.g.cs
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\MainPage.g.cs
-C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\RecipesList.g.cs
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.g.resources
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.Resources.AppResources.resources
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.csproj.GenerateResource.Cache
@@ -23,3 +22,5 @@ C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\D
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\Newtonsoft.Json.dll
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\Newtonsoft.Json.xml
 C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.csprojResolveAssemblyReference.cache
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\StoryDetails.g.cs
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\StoryList.g.cs

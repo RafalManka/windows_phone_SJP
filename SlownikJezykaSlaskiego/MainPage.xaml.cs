@@ -26,7 +26,7 @@ namespace SlownikJezykaSlaskiego
 
         private void Button_Click_1(object sender, System.Windows.RoutedEventArgs e)
         {
-        	NavigationService.Navigate(new Uri("/RecipesList.xaml", UriKind.Relative));
+        	NavigationService.Navigate(new Uri("/StoryList.xaml", UriKind.Relative));
         }
 
     }
