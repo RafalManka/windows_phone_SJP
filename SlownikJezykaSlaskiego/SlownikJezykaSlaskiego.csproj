@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{b594db77-b726-41ce-bcd4-e7ebec9c9df5}</ProjectGuid>
+    <ProjectGuid>{B594DB77-B726-41CE-BCD4-E7EBEC9C9DF5}</ProjectGuid>
     <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -162,20 +162,18 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\arrow.png" />
+    <Content Include="Resources\Icon.png" />
+    <Content Include="Resources\kluski_rolada.jpg" />
+    <Content Include="Resources\kluski_slaskie_2.JPG" />
+    <Content Include="Resources\polnische_Flagge.png" />
+    <Content Include="Resources\schlesische_flagge.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\AppResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="arrow.png" />
-    <Resource Include="Icon.png" />
-    <Resource Include="kluski_rolada.jpg" />
-    <Resource Include="kluski_slaskie_2.JPG" />
-    <Resource Include="polnische_Flagge.png" />
-    <Resource Include="schlesische_flagge.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

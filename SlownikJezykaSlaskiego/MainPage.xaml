@@ -76,7 +76,7 @@
 		<Button x:Name="BtnDictionary" HorizontalContentAlignment="Left" FontSize="60" Content="Słownik" Margin="-12,179,-12,171" Grid.RowSpan="3" BorderThickness="0" 
 		Style="{StaticResource ButtonStyleLandingPage}" Click="BtnDictionary_Click">
 			<Button.Background>
-				<ImageBrush Stretch="UniformToFill" ImageSource="Icon.png">
+				<ImageBrush Stretch="UniformToFill" ImageSource="/Resources/Icon.png">
 					<ImageBrush.RelativeTransform>
 						<CompositeTransform CenterY="0.5" CenterX="0.5" TranslateY="0.5" TranslateX="0.35"/>
 					</ImageBrush.RelativeTransform>
@@ -87,7 +87,7 @@
 		<Button Grid.Row="1" Content="Przepisy&#x0d;kulinarne" BorderThickness="0" Foreground="White" HorizontalContentAlignment="Left" FontSize="60"
 		Margin="-13,188,-15,180" Grid.RowSpan="3" Style="{StaticResource ButtonStyleLandingPage}" Click="Button_Click_1">
 			<Button.Background>
-				<ImageBrush Stretch="UniformToFill" ImageSource="kluski_rolada.jpg"/>
+				<ImageBrush Stretch="UniformToFill" ImageSource="/Resources/kluski_rolada.jpg"/>
 			</Button.Background>
 		</Button>
 
