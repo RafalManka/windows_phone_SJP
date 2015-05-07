@@ -12,86 +12,99 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     shell:SystemTray.IsVisible="True">
-	<phone:PhoneApplicationPage.Resources>
-		<Style x:Key="ButtonStyleLandingPage" TargetType="Button">
-			<Setter Property="Background" Value="Transparent"/>
-			<Setter Property="BorderBrush" Value="{StaticResource PhoneForegroundBrush}"/>
-			<Setter Property="Foreground" Value="{StaticResource PhoneForegroundBrush}"/>
-			<Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
-			<Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilySemiBold}"/>
-			<Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMedium}"/>
-			<Setter Property="Padding" Value="10,5,10,6"/>
-			<Setter Property="Template">
-				<Setter.Value>
-					<ControlTemplate TargetType="Button">
-						<Grid Background="Transparent">
-							<VisualStateManager.VisualStateGroups>
-								<VisualStateGroup x:Name="CommonStates">
-									<VisualState x:Name="Normal"/>
-									<VisualState x:Name="MouseOver"/>
-									<VisualState x:Name="Pressed">
-										<Storyboard>
-											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentContainer">
-												<DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
-											</ObjectAnimationUsingKeyFrames>
-											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ButtonBackground">
-												<DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
-											</ObjectAnimationUsingKeyFrames>
-										</Storyboard>
-									</VisualState>
-									<VisualState x:Name="Disabled">
-										<Storyboard>
-											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentContainer">
-												<DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
-											</ObjectAnimationUsingKeyFrames>
-											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="ButtonBackground">
-												<DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
-											</ObjectAnimationUsingKeyFrames>
-											<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ButtonBackground">
-												<DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
-											</ObjectAnimationUsingKeyFrames>
-										</Storyboard>
-									</VisualState>
-								</VisualStateGroup>
-							</VisualStateManager.VisualStateGroups>
-							<Border x:Name="ButtonBackground" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" CornerRadius="0" Margin="{StaticResource PhoneTouchTargetOverhang}">
-								<ContentControl x:Name="ContentContainer" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" Foreground="{TemplateBinding Foreground}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
-							</Border>
-						</Grid>
-					</ControlTemplate>
-				</Setter.Value>
-			</Setter>
-		</Style>
-	</phone:PhoneApplicationPage.Resources>
-	
+    <phone:PhoneApplicationPage.Resources>
+        <Style x:Key="ButtonStyleLandingPage" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="{StaticResource PhoneForegroundBrush}"/>
+            <Setter Property="Foreground" Value="{StaticResource PhoneForegroundBrush}"/>
+            <Setter Property="BorderThickness" Value="{StaticResource PhoneBorderThickness}"/>
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilySemiBold}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeMedium}"/>
+            <Setter Property="Padding" Value="10,5,10,6"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="Transparent">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentContainer">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ButtonBackground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentContainer">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="ButtonBackground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PhoneDisabledBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ButtonBackground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="ButtonBackground" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" CornerRadius="0" Margin="{StaticResource PhoneTouchTargetOverhang}">
+                                <ContentControl x:Name="ContentContainer" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" Foreground="{TemplateBinding Foreground}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
+
     <Grid x:Name="LayoutRoot" Background="#FFA0A8D1">
-		<Grid.RowDefinitions>
-			<RowDefinition Height="*" />
-			<RowDefinition Height="*" />
-			<RowDefinition Height="*" />
-			<RowDefinition Height="*" />
-		</Grid.RowDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
-		<Rectangle Grid.Row="0"/>
-		<Button x:Name="BtnDictionary" HorizontalContentAlignment="Left" FontSize="60" Content="Słownik" Margin="-12,179,-12,171" Grid.RowSpan="3" BorderThickness="0" 
-		Style="{StaticResource ButtonStyleLandingPage}" Click="BtnDictionary_Click">
-			<Button.Background>
-				<ImageBrush Stretch="UniformToFill" ImageSource="/Resources/Icon.png">
-					<ImageBrush.RelativeTransform>
-						<CompositeTransform CenterY="0.5" CenterX="0.5" TranslateY="0.5" TranslateX="0.35"/>
-					</ImageBrush.RelativeTransform>
-				</ImageBrush>
-			</Button.Background>
-		</Button>
+        <Rectangle Grid.Row="0"/>
+        <Button 
+            x:Name="BtnDictionary" 
+            HorizontalContentAlignment="Left" 
+            FontSize="60" Content="Słownik" 
+            BorderThickness="0" 
+            Style="{StaticResource ButtonStyleLandingPage}" 
+            Click="BtnDictionary_Click" Margin="0,177,0,178" Grid.RowSpan="3">
+            <Button.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Resources/Icon.png">
+                    <ImageBrush.RelativeTransform>
+                        <CompositeTransform CenterY="0.5" CenterX="0.5" TranslateY="0.5" TranslateX="0.35"/>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </Button.Background>
+        </Button>
 
-		<Button Grid.Row="1" Content="Przepisy&#x0d;kulinarne" BorderThickness="0" Foreground="White" HorizontalContentAlignment="Left" FontSize="60"
-		Margin="-13,188,-15,180" Grid.RowSpan="3" Style="{StaticResource ButtonStyleLandingPage}" Click="Button_Click_1">
-			<Button.Background>
-				<ImageBrush Stretch="UniformToFill" ImageSource="/Resources/kluski_rolada.jpg"/>
-			</Button.Background>
-		</Button>
+        <Button 
+            Grid.Row="1" 
+            Content="Opowiadania" 
+            BorderThickness="0" 
+            Foreground="Black" 
+            HorizontalContentAlignment="Right" 
+            FontSize="60" 
+            Style="{StaticResource ButtonStyleLandingPage}" 
+            Click="Button_Click_1" Margin="-15,176,-14,178" Grid.RowSpan="3">
+            <Button.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Resources/story.jpg">
+                </ImageBrush>
+            </Button.Background>
+        </Button>
 
-		<Rectangle   Grid.Row="3"  />
-  </Grid>
+        <Rectangle Grid.Row="3"  />
+    </Grid>
 
 </phone:PhoneApplicationPage>

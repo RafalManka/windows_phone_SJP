@@ -22,9 +22,29 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock x:Name="TxtTitle" Padding="10,10,10,10" TextAlignment="Center" TextWrapping="Wrap" Foreground="Black" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
-        <TextBlock x:Name="TxtDescription" Padding="10,10,10,10" TextAlignment="Left" TextWrapping="Wrap" Foreground="Black" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"/>
+            <TextBlock 
+                x:Name="TxtTitle" 
+                Padding="10,10,10,10" 
+                TextAlignment="Center" 
+                TextWrapping="Wrap" 
+                Foreground="Black" 
+                Grid.Row="0" 
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center" 
+                FontSize="40"
+                />
+            <RichTextBox 
+                x:Name="txtDescription" 
+                Padding="10,10,10,10" 
+                TextAlignment="Left" 
+                TextWrapping="Wrap" 
+                Foreground="Black" 
+                Grid.Row="1" 
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center" 
+                FontSize="15" 
+                />
         <Rectangle Grid.Row="2"/>
-    </Grid>
+        </Grid>
     </ScrollViewer>
 </phone:PhoneApplicationPage>

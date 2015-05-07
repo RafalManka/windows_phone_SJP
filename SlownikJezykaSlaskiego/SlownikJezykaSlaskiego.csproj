@@ -155,6 +155,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Resources\dictionary.json" />
+    <Content Include="Resources\story.jpg" />
     <Content Include="stories.json" />
   </ItemGroup>
   <ItemGroup>

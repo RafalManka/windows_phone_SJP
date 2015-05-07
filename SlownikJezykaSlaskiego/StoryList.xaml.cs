@@ -35,8 +35,8 @@ namespace SlownikJezykaSlaskiego
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Story word = (sender as ListBox).SelectedItem as Story;
-            NavigationService.Navigate(new Uri("/StoryDetails.xaml?msg=" + JsonConvert.SerializeObject(word), UriKind.Relative));
+            Story story = (sender as ListBox).SelectedItem as Story;
+            NavigationService.Navigate(new Uri("/StoryDetails.xaml?msg=" + JsonConvert.SerializeObject(story), UriKind.Relative));
         }
 
        
