@@ -99,8 +99,7 @@
             Style="{StaticResource ButtonStyleLandingPage}" 
             Click="Button_Click_1" Margin="-15,176,-14,178" Grid.RowSpan="3">
             <Button.Background>
-                <ImageBrush Stretch="UniformToFill" ImageSource="/Resources/story.jpg">
-                </ImageBrush>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Resources/story.jpg" />
             </Button.Background>
         </Button>
 

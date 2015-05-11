@@ -18,6 +18,7 @@ namespace SlownikJezykaSlaskiego
         public int order { get; set; }
         public string polish { get; set; }
         public string silesian { get; set; }
+        public string display { get; set; }
 
     }
 }

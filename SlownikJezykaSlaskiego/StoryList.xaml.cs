@@ -9,6 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using System.IO;
 using Newtonsoft.Json;
+using Microsoft.Phone.Tasks;
 
 namespace SlownikJezykaSlaskiego
 {
@@ -37,6 +38,13 @@ namespace SlownikJezykaSlaskiego
         {
             Story story = (sender as ListBox).SelectedItem as Story;
             NavigationService.Navigate(new Uri("/StoryDetails.xaml?msg=" + JsonConvert.SerializeObject(story), UriKind.Relative));
+        }
+
+        private void Grid_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            WebBrowserTask webBrowserTask = new WebBrowserTask();
+            webBrowserTask.Uri = new Uri("http://kopruch.blazejczak.eu/", UriKind.Absolute);
+            webBrowserTask.Show();
         }
 
        

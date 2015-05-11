@@ -49,32 +49,40 @@ namespace SlownikJezykaSlaskiego
             for (int i = 0; i < wordList.Count; i++)
             {
                 string[] split = fullText.Split(new String[] { "{" + i + "}" }, StringSplitOptions.RemoveEmptyEntries);
+                if (split.Length == 1) {
+                    continue;
+                }
                 plainTexts.Add(split[0]);
                 fullText = split[1];
             }
             plainTexts.Add(fullText);
 
-            Paragraph myParagraph = new Paragraph();
+            Paragraph paragraph = new Paragraph();
+            int j = 0;
             for (int i = 0; i < plainTexts.Count; i++) {
-                Run myRun1 = new Run();
-                myRun1.Text = plainTexts[i];
-                myParagraph.Inlines.Add(myRun1);
+                Run run = new Run();
+                run.Text = plainTexts[i];
+                paragraph.Inlines.Add(run);
 
-                if (i < wordList.Count)
+                if (j < wordList.Count)
                 {
-                    Word aWord = wordList[i];
-                    Hyperlink hl = new Hyperlink();
-                    hl.Foreground = new SolidColorBrush(Colors.Black);
-                    hl.Inlines.Add(aWord.silesian);
-                    hl.Click += (sender, ex) =>
+                    Word word = wordList[j];
+                    j++;
+                    if (word.display == null) {
+                        continue;
+                    }
+                    Hyperlink hyperlink = new Hyperlink();
+                    hyperlink.Foreground = new SolidColorBrush(Colors.Black);
+                    hyperlink.Inlines.Add(word.display);
+                    hyperlink.Click += (sender, ex) =>
                     {
-                        NavigationService.Navigate(new Uri("/DictionaryDetails.xaml?msg=" + JsonConvert.SerializeObject(aWord), UriKind.Relative));
+                        NavigationService.Navigate(new Uri("/DictionaryDetails.xaml?msg=" + JsonConvert.SerializeObject(word), UriKind.Relative));
                     };
-                    myParagraph.Inlines.Add(hl);
+                    paragraph.Inlines.Add(hyperlink);
                 }
             }
 
-            txtDescription.Blocks.Add(myParagraph);
+            txtDescription.Blocks.Add(paragraph);
 
 
         }

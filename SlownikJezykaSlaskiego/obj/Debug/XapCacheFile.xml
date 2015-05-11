@@ -1,10 +1,14 @@
-﻿<xapCache source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\SlownikJezykaSlaskiego_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2015-05-07 22:38:32">
-  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.dll" archivePath="SlownikJezykaSlaskiego.dll" lastWriteTime="2015-05-07 22:38:31" />
+﻿<xapCache source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\SlownikJezykaSlaskiego_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2015-05-11 19:41:17">
+  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Debug\SlownikJezykaSlaskiego.dll" archivePath="SlownikJezykaSlaskiego.dll" lastWriteTime="2015-05-11 19:41:16" />
+  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Icon_200.png" archivePath="Icon_200.png" lastWriteTime="2015-05-11 17:31:56" />
+  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Icon_62.png" archivePath="Icon_62.png" lastWriteTime="2015-05-11 17:31:56" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\json.json" archivePath="json.json" lastWriteTime="2015-05-06 18:54:24" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Resources\story.jpg" archivePath="Resources\story.jpg" lastWriteTime="2015-05-07 22:36:16" />
-  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\stories.json" archivePath="stories.json" lastWriteTime="2015-05-07 22:19:26" />
+  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\stories.json" archivePath="stories.json" lastWriteTime="2015-05-11 18:58:28" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2015-05-06 17:18:47" />
+  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2015-05-06 17:18:47" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2015-05-06 17:18:47" />
+  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2015-05-06 17:18:47" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2015-05-06 17:18:47" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2015-05-06 17:18:47" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2015-05-06 17:18:47" />
@@ -15,9 +19,9 @@
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Resources\polnische_Flagge.png" archivePath="Resources\polnische_Flagge.png" lastWriteTime="2015-05-06 17:32:02" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Resources\schlesische_flagge.png" archivePath="Resources\schlesische_flagge.png" lastWriteTime="2015-05-06 17:32:02" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2015-05-06 18:11:06" />
-  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2015-05-06 17:18:47" />
-  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2015-05-06 17:18:47" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="2015-05-06 17:48:06" />
   <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="2015-05-06 17:48:06" />
-  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2015-05-06 17:20:47" />
+  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2015-05-11 17:31:56" />
+  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Icon_99.png" archivePath="Icon_99.png" lastWriteTime="2015-05-11 17:31:56" />
+  <file source="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2015-05-11 17:37:43" />
 </xapCache>
