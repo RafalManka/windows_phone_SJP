@@ -10,6 +10,8 @@ namespace SlownikJezykaSlaskiego
     {
         public string title { get; set; }
         public string content { get; set; }
+        public Image image { get; set; }
+        public string author { get; set; }
         public List<Word> words { get; set; }
     }
 }

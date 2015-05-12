@@ -11,6 +11,7 @@ using Newtonsoft.Json;
 using System.Windows.Documents;
 using System.Windows.Media;
 using System.Diagnostics;
+using System.Windows.Media.Imaging;
 
 namespace SlownikJezykaSlaskiego
 {
@@ -21,6 +22,7 @@ namespace SlownikJezykaSlaskiego
             InitializeComponent();
         }
 
+   
         protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
@@ -41,6 +43,23 @@ namespace SlownikJezykaSlaskiego
                 return;
             }
             TxtTitle.Text = story.title;
+            txtAuthor.Text = story.author;
+
+            if (story.image != null)
+            {
+                if (story.image.is_dark) {
+                    TxtTitle.Foreground = new SolidColorBrush(Colors.White);
+                    txtAuthor.Foreground = new SolidColorBrush(Colors.White);
+                }
+            
+                Uri myUri = new Uri(story.image.url, UriKind.Absolute);
+                BitmapImage bmi = new BitmapImage();
+                bmi.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
+                bmi.UriSource = myUri;
+                imgHeader.Source = bmi;
+            }
+   
+
 
             string fullText = story.content;
             List<Word> wordList = story.words;

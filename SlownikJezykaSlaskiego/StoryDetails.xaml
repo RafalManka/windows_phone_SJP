@@ -21,18 +21,43 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
-            <TextBlock 
-                x:Name="TxtTitle" 
-                Padding="10,10,10,10" 
-                TextAlignment="Center" 
-                TextWrapping="Wrap" 
-                Foreground="Black" 
-                Grid.Row="0" 
-                VerticalAlignment="Center" 
-                HorizontalAlignment="Center" 
-                FontSize="40"
+            <Image 
+                x:Name="imgHeader"
+                Source="/Resources/story.jpg" Grid.Row="0" />
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+                <Rectangle Grid.Row="0"/>
+                <TextBlock 
+                    Text="Pukeltasza i Mundurek"
+                    x:Name="TxtTitle"
+                    TextAlignment="Center" 
+                    TextWrapping="Wrap" 
+                    Foreground="Black" 
+                    Grid.Row="1" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    FontSize="40"
                 />
+                <TextBlock 
+                    Text="Frank Zappa" 
+                    x:Name="txtAuthor"
+                    TextAlignment="Center" 
+                    TextWrapping="Wrap" 
+                    Foreground="Black" 
+                    Grid.Row="2" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    FontSize="30"
+                />
+                <Rectangle Grid.Row="3"/>
+            </Grid>    
+        
+        
             <RichTextBox 
                 x:Name="txtDescription" 
                 Padding="10,10,10,10" 
