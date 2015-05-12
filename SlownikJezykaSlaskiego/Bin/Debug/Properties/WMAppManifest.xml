@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{b594db77-b726-41ce-bcd4-e7ebec9c9df5}" Title="SlownikJezykaSlaskiego" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SlownikJezykaSlaskiego author" Description="Aplikacja służąca do tłumaczenia słów z śląskiego na polski." Publisher="SlownikJezykaSlaskiego" PublisherID="{8ce63c99-f8a4-4468-828a-a2425257c2e2}">
+  <App xmlns="" ProductID="{b594db77-b726-41ce-bcd4-e7ebec9c9df5}" Title="Słownik Języka Śląskiego" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SlownikJezykaSlaskiego author" Description="Aplikacja służąca do tłumaczenia słów z śląskiego na polski." Publisher="SlownikJezykaSlaskiego" PublisherID="{8ce63c99-f8a4-4468-828a-a2425257c2e2}">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />

@@ -17,6 +17,7 @@ namespace SlownikJezykaSlaskiego
 {
     public partial class StoryDetails : PhoneApplicationPage
     {
+        private Story story;
         public StoryDetails()
         {
             InitializeComponent();
@@ -35,7 +36,7 @@ namespace SlownikJezykaSlaskiego
             string msg = "";
 
             if (NavigationContext.QueryString.TryGetValue("msg", out msg)) ;
-            Story story = JsonConvert.DeserializeObject<Story>(msg);
+            story = JsonConvert.DeserializeObject<Story>(msg);
 
             if (story == null)
             {
@@ -46,16 +47,12 @@ namespace SlownikJezykaSlaskiego
             txtAuthor.Text = story.author;
 
             if (story.image != null)
-            {
-                if (story.image.is_dark) {
-                    TxtTitle.Foreground = new SolidColorBrush(Colors.White);
-                    txtAuthor.Foreground = new SolidColorBrush(Colors.White);
-                }
-            
+            {            
                 Uri myUri = new Uri(story.image.url, UriKind.Absolute);
                 BitmapImage bmi = new BitmapImage();
                 bmi.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
                 bmi.UriSource = myUri;
+                bmi.ImageOpened += imgHeader_ImageOpened;
                 imgHeader.Source = bmi;
             }
    
@@ -104,6 +101,15 @@ namespace SlownikJezykaSlaskiego
             txtDescription.Blocks.Add(paragraph);
 
 
+        }
+
+        void imgHeader_ImageOpened(object sender, RoutedEventArgs e)
+        {
+            if (story.image.is_dark)
+            {
+                TxtTitle.Foreground = new SolidColorBrush(Colors.White);
+                txtAuthor.Foreground = new SolidColorBrush(Colors.White);
+            }
         }
 
     }

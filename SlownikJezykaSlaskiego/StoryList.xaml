@@ -20,7 +20,9 @@
             <RowDefinition Height="5*" />
         </Grid.RowDefinitions>
 
-        <Grid Background="#FFA0A8D1" Grid.Row="0" Tap="Grid_Tap">
+        <Rectangle Grid.Row="0" Fill="#FFA0A8D1"/>
+        <Image Source="http://kopruch.blazejczak.eu/wp-content/uploads/2011/10/tlo_kopruch3.jpg" Grid.Row="0" Stretch="Fill"/>
+        <Grid Grid.Row="0" Tap="Grid_Tap">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="Auto" />
