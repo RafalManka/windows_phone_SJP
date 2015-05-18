@@ -1,0 +1,2 @@
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SJSScheduledTaskAgent\SJSScheduledTaskAgent.csproj;neutral
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\SlownikJezykaSlaskiego.csproj;neutral

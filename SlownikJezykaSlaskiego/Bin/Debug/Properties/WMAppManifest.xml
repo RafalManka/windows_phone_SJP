@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   <DefaultLanguage xmlns="" code="en-US" />
   <App xmlns="" ProductID="{b594db77-b726-41ce-bcd4-e7ebec9c9df5}" Title="Słownik Języka Śląskiego" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SlownikJezykaSlaskiego author" Description="Aplikacja służąca do tłumaczenia słów z śląskiego na polski." Publisher="SlownikJezykaSlaskiego" PublisherID="{8ce63c99-f8a4-4468-828a-a2425257c2e2}">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
@@ -12,14 +12,17 @@
     </Capabilities>
     <Tasks>
       <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+      <ExtendedTask Name="BackgroundTask">
+        <BackgroundServiceAgent Specifier="ScheduledTaskAgent" Name="SJSScheduledTaskAgent" Source="SJSScheduledTaskAgent" Type="SJSScheduledTaskAgent.ScheduledAgent" />
+      </ExtendedTask>
     </Tasks>
     <Tokens>
       <PrimaryToken TokenID="SlownikJezykaSlaskiegoToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">Icon_62.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">Icon_99.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Icon_99.png</BackgroundImageURI>
-          <Title>SlownikJezykaSlaskiego</Title>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Icon_173.png</BackgroundImageURI>
+          <Title>Słownik Śląski</Title>
           <BackContent></BackContent>
           <BackBackgroundImageURI></BackBackgroundImageURI>
           <BackTitle></BackTitle>
@@ -38,4 +41,4 @@
     </ScreenResolutions>
   </App>
 </Deployment>
-<!-- WPSDK Version 8.0.9900 -->
+<!-- WPSDK Version 8.1.12358 -->

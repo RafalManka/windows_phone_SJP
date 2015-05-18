@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WATER7</Machine>
+    <WindowsUser>Rafal</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>b594db77-b726-41ce-bcd4-e7ebec9c9df5</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Release\SlownikJezykaSlaskiego.dll">
+      <PackagePath>SlownikJezykaSlaskiego.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SJSScheduledTaskAgent\Bin\Release\SJSScheduledTaskAgent.dll">
+      <PackagePath>SJSScheduledTaskAgent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\ApplicationIcon.png">
+      <PackagePath>ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Icon_173.png">
+      <PackagePath>Icon_173.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Icon_200.png">
+      <PackagePath>Icon_200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Icon_62.png">
+      <PackagePath>Icon_62.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Icon_99.png">
+      <PackagePath>Icon_99.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Resources\arrow.png">
+      <PackagePath>Resources\arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Resources\Icon.png">
+      <PackagePath>Resources\Icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Resources\polnische_Flagge.png">
+      <PackagePath>Resources\polnische_Flagge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Resources\schlesische_flagge.png">
+      <PackagePath>Resources\schlesische_flagge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\json.json">
+      <PackagePath>json.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\stories.json">
+      <PackagePath>stories.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Resources\story.jpg">
+      <PackagePath>Resources\story.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Resources\kluski_rolada.jpg">
+      <PackagePath>Resources\kluski_rolada.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Resources\kluski_slaskie_2.JPG">
+      <PackagePath>Resources\kluski_slaskie_2.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rafal\Documents\projects\windows_phone_SJP\SlownikJezykaSlaskiego\Bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

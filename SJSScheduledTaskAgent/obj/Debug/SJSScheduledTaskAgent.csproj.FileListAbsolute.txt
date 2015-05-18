@@ -1,0 +1,7 @@
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SJSScheduledTaskAgent\Bin\Debug\SJSScheduledTaskAgent.dll
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SJSScheduledTaskAgent\Bin\Debug\SJSScheduledTaskAgent.pdb
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SJSScheduledTaskAgent\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SJSScheduledTaskAgent\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SJSScheduledTaskAgent\obj\Debug\SJSScheduledTaskAgent.dll
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SJSScheduledTaskAgent\obj\Debug\SJSScheduledTaskAgent.pdb
+C:\Users\Rafal\Documents\projects\windows_phone_SJP\SJSScheduledTaskAgent\obj\Debug\SJSScheduledTaskAgent.csprojResolveAssemblyReference.cache
